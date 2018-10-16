@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PENDATAAN MAHASISWA</title>
+</head>
+<body>
+    <form action="submit.php" method="post">
+        <h2 align="center">Pendataan Mahasiswa</h2>
+        <table align="center" cellpadding="2">
+			<tr>
+			<td>Nama</td>
+			</tr>
+			<tr>
+			<td><input type="text" name="nama"></td>
+			</tr>
+			<tr>
+			<td>Nim</td>
+			</tr>
+			<tr>
+			<td><input type="text" name="nim"></td>
+			</tr>
+			<tr>
+			<td>Jenis Kelamin</td>
+			</tr>
+			<tr>
+			<td>
+				<input type="radio" name="jk" value="laki-laki">Laki-laki
+				<input type="radio" name="jk" value="perempuan">Perempuan
+			</td>
+			</tr>
+			<tr>
+				
+			</tr>
+			<tr>
+				<td>Program Studi</td>
+			</tr>
+			<tr>
+				<td>
+				<select name="prodi">
+				<option value="D3 Teknik Telekomunikasi">D3 Teknik Telekomunikasi</option>
+				<option value="D3 Komputerisasi Akuntansi">D3 Komputerisasi Akuntansi</option>
+				<option value="D3 Manajemen Pemasaran">D3 Manajemen Pemasaran</option>
+				<option value="D3 Sistem Informasi">D3 Sistem Informasi</option>
+				<option value="D4 Sistem Multimedia">D4 Sistem Multimedia</option>
+				<option value="D3 Perhotelan">D3 Perhotelan</option>
+				</select>
+			<tr>
+				<td>Fakultas</td>
+			</tr>
+			<tr>
+				<td>
+				<select name="fak">
+				<option value="Ilmu Terapan">Ilmu Terapan</option>
+				<option value="Informatika">Informatika</option>
+				<option value="Teknik Elektro">Teknik Elektro</option>
+				<option value="Teknik Fisika">Teknik Fisika</option>
+				<option value="Administrasi Bisnis">Administrasi Bisnis</option>
+				<option value="Komunikasi Bisnis">Komunikasi Bisnis</option>
+
+				</select>
+				<tr>
+			<td>Asal</td>
+			</tr>
+			<tr>
+			<td><input type="text" name="asal"></td>
+			</tr>
+			<tr>
+			<td>MotoHidup</td>
+			</tr>
+			<tr>
+			<td><input type="text" name="motohidup"></td>
+			</tr>
+			<tr>
+
+				</td>
+			</tr>
+			<tr>
+				<td align="right"><input type="submit" name="submit" value="Kirim"></td>
+			</tr>
+        </table>
+    </form>
+</body>
+</html>
